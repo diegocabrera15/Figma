@@ -1,0 +1,98 @@
+{
+    "ConsultarCuentasClientes01Response": {
+        "headerOut": {
+            "dispositivo": "01010101010101010101010101010101010101010101",
+            "geolocalizacion": null,
+            "usuario": "USINTERT",
+            "unicidad": null,
+            "guid": "XXXXXXXXXXXXX",
+            "fechaHora": "201902281459012548",
+            "filler": null,
+            "idioma": "es-EC",
+            "sesion": "zxxxxxxssss",
+            "ip": "200.0.94.183",
+            "idCliente": "100",
+            "tipoIdCliente": null,
+            "documento": {
+                "fechaContable": null,
+                "numeroDocumento": null,
+                "journals": {
+                    "journal": [
+                        {
+                            "valor": null
+                        }
+                    ]
+                }
+            }
+        },
+        "bodyOut": {
+            "cuentas": {
+                "cuenta": [
+                    {
+                        "numeroCuenta": "5079393100",
+                        "tipo": "AHORRO ELECTRONICO",
+                        "moneda": "USD",
+                        "fechaApertura": "22012009",
+                        "nombreCliente": "JUAN A",
+                        "direccionCliente": "CALLE FRAY",
+                        "relacion": "PROPIETARIO",
+                        "saldoDisponible": "322.04",
+                        "saldoContable": "322.04",
+                        "producto": "2232",
+                        "subProducto": "0003",
+                        "tipoProducto": "22320003",
+                        "tipoCuenta": "AH",
+                        "codigoEstado": "00",
+                        "descCuenta": "S",
+                        "estado": "ACTIVO"
+                    },
+                    {
+                        "numeroCuenta": "5079393101",
+                        "tipo": "AHORRO ELECTRONICO",
+                        "moneda": "USD",
+                        "fechaApertura": "22012010",
+                        "nombreCliente": "JUAN A",
+                        "direccionCliente": "CALLE FRAY",
+                        "relacion": "PROPIETARIO",
+                        "saldoDisponible": "1",
+                        "saldoContable": "1",
+                        "producto": "2232",
+                        "subProducto": "0003",
+                        "tipoProducto": "22320003",
+                        "tipoCuenta": "AH",
+                        "codigoEstado": "00",
+                        "descCuenta": "S",
+                        "estado": "INACTIVO"
+                    },
+                    {
+                        "numeroCuenta": "2019353102",
+                        "tipo": "CORRIENTE",
+                        "moneda": "USD",
+                        "fechaApertura": "23012010",
+                        "nombreCliente": "JUAN A",
+                        "direccionCliente": "CALLE FRAY",
+                        "relacion": "PROPIETARIO",
+                        "saldoDisponible": "150",
+                        "saldoContable": "130",
+                        "producto": "2233",
+                        "subProducto": "0001",
+                        "tipoProducto": "22330001",
+                        "tipoCuenta": "AH",
+                        "codigoEstado": "00",
+                        "descCuenta": "S",
+                        "estado": "ACTIVO"
+                    }
+                ]
+            }
+        },
+        "error": {
+            "codigo": "0",
+            "mensaje": "TCSBRKT3_BP-OK",
+            "mensajeNegocio": "Transaccion exitosa.",
+            "tipo": "INFO",
+            "recurso": "WSClientes00/ConsultarCuentasClientes",
+            "componente": "WSClientes00",
+            "backend": "000000"
+        }
+    }
+}
